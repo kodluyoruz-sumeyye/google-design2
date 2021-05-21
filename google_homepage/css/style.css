@@ -1,10 +1,13 @@
 .header {
-  list-style-type: none;
-  margin: 10px;
-  overflow: hidden;
-  margin-right: 16px;
-  font-family: arial,sans-serif;
-  font-size: 13px;
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: arial,sans-serif;
+    align-items: center;
+    font-size: 13px;
 }
 
 .headerli a {
